@@ -1,0 +1,11 @@
+{
+	"modules" : {
+		"harmony"  : {
+			"description": "Permet de contrôler la télécommande Logitech Harmony via le Logitech Harmony Hub.",
+			"version" : "0.1",
+			"login": "",
+			"password": "",
+			"ip": "192.168.X.X"
+		}
+	}
+}

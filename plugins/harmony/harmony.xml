@@ -1,0 +1,35 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="ruleHarmony" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+	<rule id="ruleHarmony" scope="public">
+		<example>Sarah démarre l'activité télévision</example>
+		<tag>out.action=new Object(); </tag>
+
+		<item>Sarah</item>
+
+		<!--
+		Actions (out.action.action):
+		  - "status": give current Harmony status (on/off)
+		  - "turnoff": turn off current activity
+		  - "startactivity": start Harmony activity
+		      - out.action.activity: name of the activity to start, the name depends on your Harmony setup ("Watch TV", etc.)
+		-->
+
+		<one-of>
+			<item>donne moi l'état de Harmony<tag>out.action.action="status";</tag></item>
+			<item>quel est l'état de Harmony<tag>out.action.action="status";</tag></item>
+			<item>arrête Harmony<tag>out.action.action="turnoff";</tag></item>
+
+			<!-- <item>liste les activités<tag>out.action.action="list";</tag></item> -->
+
+			<item>démarre l'activité télévision<tag>out.action.action="startactivity";out.action.activity="Télévision";</tag></item>
+			<item>arrête l'activité télévision<tag>out.action.action="turnoff";</tag></item>
+            <item>démarre l'activité télé<tag>out.action.action="startactivity";out.action.activity="Télévision";</tag></item>
+            <item>arrête l'activité télé<tag>out.action.action="turnoff";</tag></item>
+
+			<item>démarre l'activité musique<tag>out.action.action="startactivity";out.action.activity="Musique";</tag></item>
+			<item>arrête l'activité musique<tag>out.action.action="turnoff";</tag></item>
+
+		</one-of>
+
+		<tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/harmony";</tag>
+	</rule>
+</grammar>
