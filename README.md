@@ -1,9 +1,19 @@
 # SARAH-Plugin-Harmony
 
-This plugin is an add-on for the framework [S.A.R.A.H.](http://encausse.net/s-a-r-a-h), an Home Automation project built
-on top of:
-* C# (Kinect) client for Voice, Gesture, Face, QRCode recognition.
-* NodeJS (ExpressJS) server for Internet of Things communication
+## Description
+
+[Logitech Harmony Ultimate Hub](http://www.logitech.com/en-us/product/harmony-ultimate-hub) /
+[Logitech Harmony Smart Control](http://www.logitech.com/en-us/product/harmony-smart-control)
+plugin for S.A.R.A.H.
+
+Control your Harmony hub from [S.A.R.A.H.](http://encausse.net/s-a-r-a-h).
+
+This plugin is an add-on for the framework [S.A.R.A.H.](http://encausse.net/s-a-r-a-h),
+a Home Automation project.
+
+## Quick Start
+
+Download the plugin from SARAH's AppStore and follow online plugin's documentation.
 
 ## License
 
@@ -31,10 +41,7 @@ on top of:
  http://www.wtfpl.net/ for more details.
 ```
 
+## Disclaimer
 
-## Description
-
-Plugin Logitech Harmony pour S.A.R.A.H.
-
-Contrôlez votre hub Harmony depuis SARAH.
-
+Products and company names mentioned herein may be trademarks or registered trademarks
+of their respective owners.
