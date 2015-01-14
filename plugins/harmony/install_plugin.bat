@@ -17,4 +17,4 @@ call "%NPM_CMD%" install debug
 REM call "%NPM_CMD%" install request
 REM call "%NPM_CMD%" install q
 REM call "%NPM_CMD%" install node-xmpp
-call "%NPM_CMD%" install "%PLUGIN_DIR%\src\harmonyjs"
+call "%NPM_CMD%" install "%PLUGIN_DIR%\src\harmonyhubjs-client"

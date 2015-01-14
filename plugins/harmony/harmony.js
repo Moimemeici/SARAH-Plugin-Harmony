@@ -4,8 +4,8 @@
  *
  * Licensed under DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
  *
- * This plugin relies on Manuel Alabor's harmonyjs library for node.js
- * https://github.com/swissmanu/harmonyjs
+ * This plugin relies on Manuel Alabor's harmonyhubjs-client library for node.js
+ * https://github.com/swissmanu/harmonyhubjs-client
  *
  * You may use node debug module; set environment variable DEBUG=*
  */

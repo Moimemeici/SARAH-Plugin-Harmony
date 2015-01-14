@@ -4,14 +4,14 @@
  *
  * Licensed under DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
  *
- * This plugin relies on Manuel Alabor's harmonyjs library for node.js
- * https://github.com/swissmanu/harmonyjs
+ * This plugin relies on Manuel Alabor's harmonyhubjs-client library for node.js
+ * https://github.com/swissmanu/harmonyhubjs-client
  *
  * You may use node debug module; set environment variable DEBUG=*
  */
 
 var debug = require('debug')('plugin:harmony:harmonylib');
-var harmony = require('harmonyjs');
+var harmony = require('harmonyhubjs-client');
 
 /**
  * Check Harmony state.
@@ -55,7 +55,7 @@ function checkState(hub, ifOff, ifOn, onError) {
 }
 
 /**
- * List actvities.
+ * List activities.
  * @param hub hub object { login, password, hub_ip }
  * @param onSuccess callback on success
  * @param onFailure callback on failure
